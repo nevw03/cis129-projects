@@ -69,3 +69,6 @@ print("---------")
 print("Total: $", f'{total:.2f}')
 print("***************************************")
 print("Thank you for visiting the Rising Star Coffee Shop! We hope to see you again soon!")
+
+# This final input command prevents the simulation from automatically closing before you can read the receipt.
+input("Press any key to close: ")
