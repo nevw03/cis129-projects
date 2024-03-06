@@ -7,6 +7,11 @@ coffees = int(input("Number of coffees bought?: "))
 muffins = int(input("Number of muffins bought?: "))
 
 # Running calculations:
+# cfetotal = total cost of coffees
+# muftotal = total cost of muffins
+# notax = total cost put together, before tax
+# totaltax = 6% of notax, total amount of tax
+# total = total cost with tax applied
 cfetotal = (coffees*5.00)
 muftotal = (muffins*4.00)
 notax = (cfetotal+muftotal)
